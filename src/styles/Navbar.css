@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: 0;
+  background-color: bisque;
+  color: black;
+  border-radius: 5px;
+}
+
+.algorithm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  /* all: unset; */
+  margin: 0 1rem;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  background-color: beige;
+}
+
+.btn:hover {
+  background-color: pink;
+  outline: 1px solid black;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+/* #range-speed {
+  transform: rotate(180deg);
+} */
+
+input {
+  width: 100px;
+}
+
+.link {
+  all: unset;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+/* active has to be declared after link because link is unset previous style */
+.active {
+  outline: 1px solid red;
+  background-color: beige;
+  border-radius: 5px;
+  padding: 5px;
+}
