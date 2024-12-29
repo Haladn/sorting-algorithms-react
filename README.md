@@ -1,3 +1,5 @@
+Visit the website: https://halladed-sorting-algorithms.netlify.app/
+
 # React sorting algorithms app
 # this app sort and visualize most common sorting algorithms
 # type of algorithms
